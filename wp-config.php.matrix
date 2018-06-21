@@ -18,7 +18,7 @@ define('SECURE_AUTH_SALT', 'CONFIG_MATRIX_SECURE_AUTH_SALT');
 define('LOGGED_IN_SALT',   'CONFIG_MATRIX_LOGGED_IN_SALT');
 define('NONCE_SALT',       'CONFIG_MATRIX_NONCE_SALT');
 
-$table_prefix  = 'maja_';
+$table_prefix  = 'CONFIG_MATRIX_SQL_INIT_TABLE_PREFIX';
 
 define('WP_DEBUG', false);
 
